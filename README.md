@@ -10,6 +10,9 @@ Once your customer is ready to pay, redirect them to the URL of your Magpie host
 
 ## Demo
 
+- [HTML + Vanilla JavaScript](client/html)
+- [React](client/react-cra)
+
 The demo is running in test mode -- use `4242 4242 4242 4242` as a test card number with any CVC + future expiration date.
 
 Read more about testing on Magpie at https://magpie.im/documentation/#section/Test-Cards.
