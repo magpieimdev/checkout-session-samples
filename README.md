@@ -1,10 +1,10 @@
 # Accept payments with Magpie Checkout
 
-This sample shows you how to integrate with Magpie [Checkout](https://gist.github.com/domdanao/f922ba3a8c5065de02ce933322852532).
+This sample shows you how to integrate with [Magpie Checkout](https://developer.magpie.im/docs/checkout_guide/).
 
 Building a payment form UI from scratch is difficult -- input field validation, error message handing, and localization are just a few things to think about when designing a simple checkout flow.
 
-We built [Checkout](https://gist.github.com/domdanao/f922ba3a8c5065de02ce933322852532) to do that work for you so now you can focus on building the best storefront experience for your customers.
+We built [Checkout](https://developer.magpie.im/docs/checkout_guide/) to do that work for you so now you can focus on building the best storefront experience for your customers.
 
 Once your customer is ready to pay, redirect them to the URL of your Magpie hosted payment page. 🥳
 
@@ -13,17 +13,31 @@ Once your customer is ready to pay, redirect them to the URL of your Magpie host
 - [HTML + Vanilla JavaScript](client/html)
 - [React](client/react-cra)
 
-The demo is running in test mode -- use `4242 4242 4242 4242` as a test card number with any CVC + future expiration date.
+~~The demo is running in test mode -- use `4242 4242 4242 4242` as a test card number with any CVC + future expiration date.~~
 
-Read more about testing on Magpie at https://magpie.im/documentation/#section/Test-Cards.
+The demo is currently running in live mode while test environment is still under development.
+
+#### Cards
+
+Use actual card number, expiry and CVC for testing.
+
+#### Wallets (Gcash, Paymaya, Alipay, Wechat Pay, etc.)
+
+Use live wallet account for testing.
+
+#### Banks (BPI, BDO, Metrobank, Unionbank, etc.)
+
+Use live bank account for testing.
+
+Read more about testing on Magpie at https://developer.magpie.im.
 
 ## Features
 
 - 🔒 Built-in dynamic 3D Secure (ready for SCA)
-- 🧾💵 Support for various payment methods. See the [docs](https://gist.github.com/domdanao/f922ba3a8c5065de02ce933322852532) for details.
+- 🧾💵 Support for various payment methods. See the [docs](https://developer.magpie.im/docs/checkout_guide/) for details.
 - 🍨 HTML + Vanilla JavaScript as well as ⚛️ React clients
 
-For more features see the [Checkout documentation](https://gist.github.com/domdanao/f922ba3a8c5065de02ce933322852532).
+For more features see the [Checkout documentation](https://developer.magpie.im/docs/checkout_guide/).
 
 <!-- prettier-ignore -->
 |     | ✅

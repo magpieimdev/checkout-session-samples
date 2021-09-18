@@ -16,11 +16,11 @@ This sample requires a Magpie account API keys in the environment variable.
 Open `.env` and confirm that `MAGPIE_PUBLISHABLE_KEY` and `MAGPIE_SECRET_KEY` is set . It should look something like:
 
 ```
-MAGPIE_PUBLISHABLE_KEY=pk_test_TYooMQauvdEDq54NiTphI7jx
-MAGPIE_SECRET_KEY=sk_test_TYooMQauvdEDq54NiTphI7jx
+MAGPIE_PUBLISHABLE_KEY=pk_live_TYooMQauvdEDq54NiTphI7jx
+MAGPIE_SECRET_KEY=sk_live_TYooMQauvdEDq54NiTphI7jx
 ```
 
-Note that `pk_test...` and `sk_test...` is a placeholder and the sample will not work with that API keys. You can retrieve your API keys from Magpie [developer dashboard](https://dashboard.magpie.im).
+Note that `pk_live...` and `sk_live...` is a placeholder and the sample will not work with that API keys. You can retrieve your API keys from Magpie [developer dashboard](https://dashboard.magpie.im).
 
 2. Install dependencies
 
